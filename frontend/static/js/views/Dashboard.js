@@ -9,9 +9,7 @@ export default class extends View {
     async getHtml() {
         return `<h1>Welcome Gourav!</h1>
         <p>Hello There this is a Dashboard</p>
-        <p>
-            <a href="/hotels" class="nav__link" data-link>Hotels</a>
-        </p>
+      
         `;
     }
 }
