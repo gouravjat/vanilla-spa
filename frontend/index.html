@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restraunt SPA</title>
-  </head>
-  <body>
-    <nav class="nav">
-      <a href="/" class="nav__link" data-link>Dashboard</a>
-      <a href="/hotels" class="nav__link" data-link>Hotels</a>
-      <a href="/employees" class="nav__link" data-link>Employees</a>
-    </nav>
-    <table class="table table-block">
-        <thead>
-            <th>Post</th>
-            <th>ID</th>
-        </thead>
-        <tbody id="my-table">
-            
-        </tbody>
-    </table>
-    <script type="module" src="/static/js/index.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Restraunt SPA</title>
+		<link rel="stylesheet" href="/static/css/index.css" />
+	</head>
+
+	<body>
+		<nav class="nav">
+			<a href="/" class="nav__link" data-link>Dashboard</a>
+			<a href="/hotels" class="nav__link" data-link>Hotels</a>
+			<a href="/employees" class="nav__link" data-link>Employees</a>
+		</nav>
+		<div id="app"></div>
+		<script type="module" src="/static/js/index.js"></script>
+	</body>
 </html>
